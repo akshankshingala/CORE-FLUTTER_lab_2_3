@@ -7,167 +7,188 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
+          backgroundColor: Colors.black,
           title: const Text(
-            "Rich Text",
-            style: TextStyle(color: Colors.blue, fontSize: 22),
+            "RichText",
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-          backgroundColor: Colors.orange,
           centerTitle: true,
         ),
         body: Center(
           child: RichText(
-            text: const TextSpan(
-                text: " −>IN",
-                style: TextStyle(
-                  color: Colors.orange,
-                  fontSize: 22,
-                ),
+            text: TextSpan(
+                text: " • Aandharpardesh\n",
+                style: TextStyle(color: Colors.amber, fontSize: 20),
                 children: <TextSpan>[
                   TextSpan(
-                    text: "D",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 22,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "IA\n",
-                    style: TextStyle(
-                      color: Colors.green,
-                      fontSize: 22,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Canada\n",
-                    style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>London\n",
+                    text: " • Assam\n",
                     style: TextStyle(
                       color: Colors.blue,
-                      fontSize: 18,
+                      fontSize: 20,
                     ),
                   ),
                   TextSpan(
-                    text: "−>America\n",
+                    text: " • Bihar\n",
+                    style: TextStyle(color: Colors.blueGrey, fontSize: 20),
+                  ),
+                  TextSpan(
+                    text: " • Chattisgadh\n",
                     style: TextStyle(
-                      color: Colors.lightBlueAccent,
-                      fontSize: 18,
+                      color: Colors.brown,
+                      fontSize: 20,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Bhutan\n",
-                    style: TextStyle(
-                      color: Colors.lightGreen,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Austria\n",
-                    style: TextStyle(
-                      color: Colors.deepOrange,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Sayria\n",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Belgium\n",
-                    style: TextStyle(
-                      color: Colors.amberAccent,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Bulgria\n",
-                    style: TextStyle(
-                      color: Colors.blueGrey,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Croatia\n",
-                    style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 18,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "−>Cyprus\n",
+                    text: " • Goa\n",
                     style: TextStyle(
                       color: Colors.cyan,
-                      fontSize: 18,
+                      fontSize: 21,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Chaina\n",
+                    text: " • Gujarat\n",
                     style: TextStyle(
-                      color: Colors.redAccent,
+                      color: Colors.deepOrange,
+                      fontSize: 24,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Harayana\n",
+                    style: TextStyle(
+                      color: Colors.cyanAccent,
                       fontSize: 18,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Hong Kong\n",
+                    text: " • Himachal Pardesh\n",
+                    style: TextStyle(
+                      color: Colors.amberAccent,
+                      fontSize: 16,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Jammu & Kashamir\n",
+                    style: TextStyle(
+                      color: Colors.deepOrangeAccent,
+                      fontSize: 20,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Jharkhand\n",
+                    style: TextStyle(
+                      color: Colors.blueAccent,
+                      fontSize: 19,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Karnataka\n",
+                    style: TextStyle(
+                      color: Colors.lightBlue,
+                      fontSize: 18,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Kerala\n",
+                    style: TextStyle(
+                      color: Colors.deepPurple,
+                      fontSize: 20,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Madhayapardesh\n",
                     style: TextStyle(
                       color: Colors.green,
-                      fontSize: 18,
+                      fontSize: 16,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Indonesia\n",
+                    text: " • Maharstra\n",
+                    style: TextStyle(color: Colors.limeAccent, fontSize: 18),
+                  ),
+                  TextSpan(
+                    text: " • Manipur\n",
                     style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
+                      color: Colors.amberAccent,
+                      fontSize: 20,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Japan\n",
+                    text: " • Meghalay\n",
                     style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 18,
+                      color: Colors.cyan,
+                      fontSize: 20,
                     ),
                   ),
                   TextSpan(
-                    text: "−>North Korea\n",
+                    text: " • Mizoram\n",
                     style: TextStyle(
-                      color: Colors.blue,
-                      fontSize: 18,
+                      color: Colors.pink,
+                      fontSize: 20,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Malaysia\n",
+                    text: " • Nagaland\n",
                     style: TextStyle(
-                      color: Colors.blueGrey,
+                      color: Colors.white24,
                       fontSize: 18,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Myaammar\n",
+                    text: " • Orissa\n",
                     style: TextStyle(
                       color: Colors.yellow,
+                      fontSize: 20,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Punjab\n",
+                    style: TextStyle(
+                      color: Colors.deepOrangeAccent,
                       fontSize: 18,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Nepal\n",
+                    text: " • Rajasthan\n",
                     style: TextStyle(
-                      color: Colors.deepPurpleAccent,
+                      color: Colors.blueAccent,
+                      fontSize: 21,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Sikiim\n",
+                    style: TextStyle(
+                      color: Colors.lightBlue,
                       fontSize: 18,
                     ),
                   ),
                   TextSpan(
-                    text: "−>Singapore\n",
+                    text: " • Tamil Nadu\n",
                     style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 18,
+                      color: Colors.deepPurple,
+                      fontSize: 20,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Utrrakhand\n",
+                    style: TextStyle(
+                      color: Colors.green,
+                      fontSize: 16,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • Delhi\n",
+                    style: TextStyle(
+                      color: Colors.deepPurple,
+                      fontSize: 20,
+                    ),
+                  ),
+                  TextSpan(
+                    text: " • West Bangal\n",
+                    style: TextStyle(
+                      color: Colors.green,
+                      fontSize: 16,
                     ),
                   ),
                 ]),
